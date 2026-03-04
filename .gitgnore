@@ -1,8 +1,0 @@
-__pycache__/
-*.pyc
-.env
-.vscode/
-
-# Windows
-Thumbs.db
-Desktop.ini
