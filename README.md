@@ -71,15 +71,13 @@ Process:
 **2.** Convert descriptions into semantic embeddings <br>
 **3.** Compare embedding vectors using similarity metrics <br>
 **4.** Calculate conceptual similarity scores <br>
+
 More details are available in:
 ````
 semantic_similarity/README.md
 ````
-
----
-# Visual Similarity Model
+## Visual Similarity Model
 The visual similarity model compares trademarks based on their **visual appearance.**
-
 The model extracts visual features from trademark images and computes similarity scores between feature vectors.
 
 Typical pipeline:
@@ -88,6 +86,7 @@ Typical pipeline:
 **2.** Extract visual features using CNN <br>
 **3.** Convert image into embedding vector <br>
 **4.** Compute similarity between vectors <br>
+
 More details are available in:
 ````
 visual_similarity/README.md
