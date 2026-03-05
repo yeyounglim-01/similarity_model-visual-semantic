@@ -34,7 +34,7 @@ Designed with a modular structure to allow easy expansion of additional models s
 ---
 # 🗂️ Project Structure
 ````
-semanticmodel/
+similarity_model_visual-semantic
 ├── README.md
 
 ├── semantic_similarity/ # Semantic similarity model
