@@ -35,26 +35,29 @@ Designed with a modular structure to allow easy expansion of additional models s
 # 🗂️ Project Structure
 ````
 semanticmodel/
-│
-├── semantic_similarity/        # Conceptual (semantic) similarity model
-│   ├── data/
-│   ├── models/
-│   ├── utils/
-│   ├── inference.py
-│   └── README.md
-│
-├── visual_similarity/          # Visual similarity model
-│   ├── dataset/
-│   ├── training/
-│   ├── inference/
-│   ├── model/
-│   └── README.md
-│
+├── README.md
+
+├── semantic_similarity/ # Semantic similarity model
+│ ├── config.py
+│ ├── trademark_analysis.py
+│ ├── compare.py
+│ ├── requirements.txt
+│ ├── .env.example
+│ ├── .gitignore
+│ ├── README.md
+│ ├── docs_SETUP_GUIDE_KO.md
+│ ├── 00_GITHUB_UPLOAD_CHECKLIST.md
+│ └── GITHUB_GUIDELINE.md
+
+└── visual_similarity/ # Visual similarity model
 ├── .gitignore
+├── README.md
+├── model_utils.py
+├── db_example.py
 ├── requirements.txt
-└── README.md
+└── resnet50_triplet_final.pth
 ````
-Each module contains its own documentation explaining implementation details and usage/
+Each module contains its own documentation explaining implementation details and usage.
 
 ---
 ## 💻 Models
